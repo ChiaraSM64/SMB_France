@@ -1,0 +1,232 @@
+@font-face {
+    font-family: SuperMarioBros;
+    src: url(../font/SuperMarioBros-ov7d.ttf);
+}
+
+body {
+    color: white;
+    margin: 0;
+    background-image: url(../images/background\ smb\ site.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.discord {
+    color: rgb(84, 134, 209);
+}
+
+nav {
+    background-color: rgb(37, 56, 81);
+    font-size: 3lvh;
+    height: 6.5lvh;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: SuperMarioBros;
+}
+
+.nav_button {
+    display: flex;
+    gap: 2lvh;
+}
+
+.nav_logo {
+    display: flex;
+}
+
+nav img {
+    width: 4em;
+}
+
+.nav_droite {
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    padding-left: 1lvh;
+    padding-right: 1lvh;
+}
+
+a:hover {
+    background-color: rgb(38, 41, 44);
+}
+
+.centerbox {
+
+    background-color: rgb(37, 56, 81);
+    display: flex;
+    justify-content: center;
+    margin: 5lvh;
+    flex-direction: column;
+    font-size: 2lvh;
+    margin-left: 40lvh;
+    margin-right: 40lvh;
+    line-height: 1.5em;
+}
+
+.titlebox {
+    display: flex;
+    flex-direction: row;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoboxText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3lvh;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    background-color: rgb(37, 56, 81);
+    line-height: 1.8em;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+table.rank {
+    background-color: rgb(37, 56, 81);
+    line-height: 2.1em;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+tr {
+    background-color: rgb(37, 56, 81);
+}
+
+td img {
+    height: 1em;
+    margin-top: 0.1em;
+    border-radius: 0.125em;
+}
+
+tr.alternate {
+    background-color: rgb(30, 46, 65);
+}
+
+td {
+    text-align: center;
+}
+
+td.text {
+    text-align: left;
+}
+
+/* Rank */
+
+.rank_name {
+    border-radius: 0.8em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-left: 0.5ch;
+    padding-right: 0.5ch;
+    font-family: Rubik;
+    font-size: 0.75em;
+}
+
+.rank_name.pink {
+    background-color: rgb(255, 0, 255);
+}
+
+.rank_name.purple {
+    background-color: rgb(142, 0, 170);
+}
+
+.rank_name.red {
+    background-color: rgb(192, 0, 0);
+}
+
+.rank_name.orange {
+    background-color: rgb(216, 104, 0);
+}
+
+.rank_name.yellow {
+    background-color: rgb(251, 255, 0);
+}
+
+.rank_name.blue {
+    background-color: rgb(0, 174, 255);
+}
+
+.rank_name.green {
+    background-color: rgb(27, 175, 14);
+}
+
+.rank_name.greyblue {
+    background-color: rgb(31, 145, 180);
+}
+
+.rank_name.gold {
+    background-color: gold;
+}
+
+.rank_name.silver {
+    background-color: silver;
+}
+
+.rank_name.brown {
+    background-color: rgb(68, 42, 21);
+}
+
+.rank_name.darkgrey {
+    background-color: rgb(53, 53, 53);
+}
+
+
+td.pink {
+    background-color: rgba(255, 0, 255, 0.5);
+}
+td.purple {
+    background-color: rgba(142, 0, 170, 0.5);
+}
+td.red {
+    background-color: rgba(192, 0, 0, 0.5);
+}
+td.orange {
+    background-color: rgba(216, 104, 0, 0.5);
+}
+td.yellow {
+    background-color: rgba(251, 255, 0, 0.5);
+}
+td.blue {
+    background-color: rgba(0, 174, 255, 0.5);
+}
+td.green {
+    background-color: rgba(27, 175, 14, 0.5);
+}
+td.greyblue {
+    background-color: rgba(31, 145, 180, 0.5);
+}
+td.gold {
+    background-color: rgba(255, 217, 0, 0.5);
+}
+td.silver {
+    background-color: rgba(192, 192, 192, 0.5);
+}
+td.brown {
+    background-color: rgba(68, 42, 21, 0.5);
+}
+td.darkgrey {
+    background-color: rgba(53, 53, 53, 0.5);
+}
